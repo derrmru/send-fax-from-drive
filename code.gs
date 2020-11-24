@@ -6,7 +6,7 @@ function onHomepage(e) {
   userName = userName.substr(0, 1).toUpperCase() + userName.slice(1).toLowerCase();
 
   var textParagraph = CardService.newTextParagraph()
-        .setText( 'Hey ' + userName + ', please select the gdoc that you would like to fax.');
+        .setText( 'Hey ' + userName + ', please select the gdoc that you would like to send.');
 
   var cardSection = CardService.newCardSection()
      .addWidget(textParagraph);
